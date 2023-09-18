@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\PROGRAMAÇÃO\\DIO\\MongoDB\\Nova pasta\\dotnet-mongo-master\\dotnet-mongo-master\\Api\\Api.csproj": {}
+  },
+  "projects": {
+    "E:\\PROGRAMAÇÃO\\DIO\\MongoDB\\Nova pasta\\dotnet-mongo-master\\dotnet-mongo-master\\Api\\Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PROGRAMAÇÃO\\DIO\\MongoDB\\Nova pasta\\dotnet-mongo-master\\dotnet-mongo-master\\Api\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "E:\\PROGRAMAÇÃO\\DIO\\MongoDB\\Nova pasta\\dotnet-mongo-master\\dotnet-mongo-master\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\Karime\\.nuget\\packages\\",
+        "outputPath": "E:\\PROGRAMAÇÃO\\DIO\\MongoDB\\Nova pasta\\dotnet-mongo-master\\dotnet-mongo-master\\Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karime\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
